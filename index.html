@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Muppet Show</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Helvetica', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            color: #FF6F00; /* Couleur vive pour rappeler l'ambiance Muppet */
+            text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+            margin-top: 50px;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 225px;
+        }
+        .video-container iframe {
+            border: 5px solid #FF6F00;
+            border-radius: 10px;
+        }
+        .video-container div {
+            width: 45%;
+        }
+        .footer {
+            margin-top: 100px;
+            font-size: 1.2em;
+            color: #FF6F00;
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    
+    <div class="video-container">
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FUVruAi-VbI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Bj38Vs17RtY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>codé par Valentine Dupuy</p>
+    </div>
+</body>
+</html>
